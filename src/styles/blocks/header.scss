@@ -1,0 +1,125 @@
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow:0 0 50px rgba(122,122,122,0.5);
+
+  &__container{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content{
+    display: flex;
+    width: 1234px;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  &__top{
+    width: 1440px;
+    background-color: #FED600;
+    font-size: 13px;
+  }
+
+  &__content_center{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__content_bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 21px;
+    margin-bottom: 22px;
+  }
+
+  &__top_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+  }
+  
+  &__top_reiht{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__center{
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  &__bottom{
+    display: flex;
+    width: 1440px;
+    border-top: 1px solid #BDBDBD;
+  }
+}  
+
+.contacts__desc{
+  display: flex;
+  align-items: center;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+}
+
+.contacts__phone{
+  padding-left: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.contacts__hours{
+  padding-left: 20px;
+}
+
+.center__top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:16px;
+}
+
+.contacts__desc_reiht{
+  display: flex;
+  padding-left: 36px;
+}
+
+.nav-center{
+
+  width: 100%;
+
+  &__link{
+    text-decoration: none;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+color: #000;
+  }
+
+  &__list{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0;
+  }
+}

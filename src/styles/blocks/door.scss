@@ -1,0 +1,25 @@
+.door{
+    display: flex;
+    align-items: center;
+
+  &__svg{
+padding-right: 5px;
+  }
+
+  &__vector2{
+    position: absolute;
+    width: 14px;
+    height: 8px;
+    top: 101px;
+    left: 69.4%;
+    stroke: #D2001C;
+    fill: #D2001C;
+  }
+
+  &__vector1{
+    width: 13px;
+    height: 18px;
+    stroke: #D2001C;
+    fill: #D2001C;
+  }
+}

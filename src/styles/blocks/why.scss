@@ -1,0 +1,61 @@
+.why{
+
+  margin-bottom: 70px;
+
+  &__container{
+    display: flex;
+    width: 1234px;
+  flex-direction: column;
+}
+
+&__title{
+  font-family: SF Pro Text;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+letter-spacing: -0.7px;
+color: #222222;
+margin-bottom: 50px;
+}
+
+&__list{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+&__trigger{
+  display: flex;
+}
+
+&__trigger_text{
+color: #4D4D4D;
+padding-right: 15px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-decoration-line: underline;
+}
+
+&__trigger_text:hover{
+  color: #D2001C;
+}
+
+&__icon{
+width: 8px;
+height: 16px;
+stroke: #4d4d4d;
+fill: #fff;
+transform: rotate(-180deg);
+}
+
+&__icon:hover{
+stroke:  #D2001C;
+}
+}

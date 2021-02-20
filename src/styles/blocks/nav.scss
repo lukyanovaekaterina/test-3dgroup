@@ -1,0 +1,29 @@
+.nav-bottom{
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  &__item{
+    display: flex;
+    align-items: center;
+  }
+
+  &__link{
+    font-family: Open Sans;
+    text-decoration: none;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+  }
+
+  &__icon{
+    stroke: #BDBDBD;;
+    width: 18px;
+    height: 10px;
+  }
+}
