@@ -20,6 +20,11 @@ height: 17px;
 stroke:#4D4D4D;
 fill: #F9F9F9;
 }
+
+&__icon-next{
+transform: rotate(180deg);
+
+}
   &__title{
     display: flex;
     margin-top: 70px;
